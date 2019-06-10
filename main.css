@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+
+
+
+button {
+font-size: 50px;
+display:flex;
+justify-content: center;
+
+}
+
+button:hover{
+    background-color: red;
+}
+
+div.dice {
+font-size: 50px;
+font-family: 'Luckiest Guy', cursive;
+
+}
+
