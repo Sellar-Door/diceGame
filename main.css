@@ -1,13 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
 
 body {
-   background-color:black;
+   background-image: url("img/abstract-background-369.jpg");
+}
+
+#container {
+   display: flex;
+   justify-content: space-around;
+}
+
+#p2 {
+   display: flex;
+   flex-direction: column; 
 }
 
 button {
 font-size: 50px;
 margin: auto;
-background-color: grey;
+color: white;
+background-color: black;
 }
 
 button:hover{
@@ -15,14 +26,14 @@ button:hover{
 }
 
 div.dice, h1 {
-font-size: 50px;
-font-family: 'Luckiest Guy', cursive;
+font-size: 20px;
+font-family: 'Concert One', cursive;
 color: white;
 
 }
 
-h3 {
-
-   color:blue;
-   font-size: 30px;
+h6{
+   color: black;
+   font-size: 20px;
+   font-family: 'Concert One', cursive;
 }

@@ -12,10 +12,10 @@ totalScore = totalScore + total // adds each dice roll to create a total score
 die1.innerHTML = "You rolled " + d1
 score.innerHTML = "TOTAL "+ totalScore
 if(totalScore >= 20) { // used to alter the text in id "score" when totalScore is equal to 20 or above 
-   score.innerHTML = "YOU WIN! You scored a total of " +totalScore
+   score.innerHTML = totalScore+" YOU WIN"
 }if(d1 === 1) { // resets total score to 0 if dice roll - d1 - equals 1 at any point in the game and displays text to "score"
    totalScore = totalScore - totalScore
-   score.innerHTML = "GAME OVER. Roll the dice to start again"
+   score.innerHTML = "GAME OVER"
 }if(totalScore >=20) { // used to reset total score to 0 once the totalScore is equal to 20 or above
    totalScore = totalScore - totalScore
 }
@@ -34,3 +34,4 @@ if(d1 == 1) {
    image.src = "img/dice6.png"
 }
 }
+
